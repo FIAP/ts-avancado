@@ -1,0 +1,17 @@
+{
+  "name": "aula1-exemplo-banco",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 1 — Banco (base para os 4 pilares da OOP)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

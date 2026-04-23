@@ -1,0 +1,17 @@
+{
+  "name": "aula3-exemplo2",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 3 — DI com container, tokens, singleton/transient e composition root",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

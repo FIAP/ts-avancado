@@ -1,0 +1,17 @@
+{
+  "name": "aula6-exemplo1",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 6 — Arquitetura em Cebola (Onion)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/presentation/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/presentation/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

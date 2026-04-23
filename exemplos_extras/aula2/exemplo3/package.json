@@ -1,0 +1,22 @@
+{
+  "name": "exemplos-extras-aula2-exemplo3",
+  "version": "1.0.0",
+  "description": "Extras Aula 2 — exemplo3: generics simples (Caixa<T> e função genérica)",
+  "type": "module",
+  "imports": {
+    "#app/*": "./dist/*"
+  },
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "Thiago S Adriano",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "aula8-exemplo1",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 8 — LangChain + Ollama (local)",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "exemplo-01": "tsx src/exemplo-01-chat.ts",
+    "exemplo-02": "tsx src/exemplo-02-prompt-template.ts",
+    "exemplo-03": "tsx src/exemplo-03-chain.ts"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/core": "^0.3.0",
+    "@langchain/ollama": "^0.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  }
+}

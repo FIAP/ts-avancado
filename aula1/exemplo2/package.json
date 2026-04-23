@@ -1,0 +1,20 @@
+{
+  "name": "exemplo2",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 1 — exemplo2 (OOP: strategy, template method, VO)",
+  "type": "module",
+  "imports": {
+    "#app/*": "./dist/*"
+  },
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

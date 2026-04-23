@@ -1,0 +1,17 @@
+{
+  "name": "aula5-exemplo1",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 5 — Arquitetura Hexagonal (Ports and Adapters)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/entrypoints/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/entrypoints/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

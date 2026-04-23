@@ -1,0 +1,22 @@
+# Dependências e artefatos de build
+node_modules/
+dist/
+build/
+out/
+
+# Logs e cache
+*.log
+npm-debug.log*
+*.tsbuildinfo
+
+# Ambiente e segredos
+.env
+.env.*
+!.env.example
+
+# Sistema / IDE (comum no macOS)
+.DS_Store
+Thumbs.db
+
+# Cobertura de testes
+coverage/

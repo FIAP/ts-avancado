@@ -1,0 +1,17 @@
+{
+  "name": "aula7-exemplo1",
+  "version": "1.0.0",
+  "description": "TypeScript avançado — Aula 7 — Arquitetura Limpa (Clean Architecture)",
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/frameworks/cli/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/frameworks/cli/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}
