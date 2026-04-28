@@ -22,6 +22,10 @@ A prática integra conceitos das aulas anteriores:
 - **Injeção de dependência** na composição (`composition/composicao.ts`), injetando a porta nos casos de uso.
 - **Princípios SOLID** na organização do domínio e na extensibilidade via novos adaptadores.
 
+## Diagramas de sequência
+
+Fluxos de composição, registro de ativo e resumo da carteira estão descritos em **[`docs/diagramas-sequencia.md`](docs/diagramas-sequencia.md)** (Mermaid), incluindo o contraste entre adaptador em memória e repositório vazio.
+
 ## Estrutura de pastas (mapa hexagonal)
 
 ```
@@ -45,10 +49,12 @@ npm install
 npm run start
 ```
 
-## O que o `app.ts` demonstra
+## O que o `entrypoints/app.ts` demonstra
 
-1. **Cenário 1:** `RepositorioMemoriaAdapter` — resumo com valores reais (TechBr + FII).  
-2. **Cenário 2:** `RepositorioVazioAdapter` — mesmos casos de uso, outro adaptador; o resumo permanece zerado, sem alterar o domínio.
+1. **Cenário 1:** `comporComPersistenciaEmMemoria()` com `RepositorioMemoriaAdapter` — resumo com valores reais após registrar **Acao** (TechBr) e **FundoImobiliario** (FII).  
+2. **Cenário 2:** `comporComRepositorioVazio()` com `RepositorioVazioAdapter` — mesmos casos de uso (`RegistrarAtivoUseCase` / `ResumoCarteiraUseCase`); o resumo permanece zerado, sem alterar domínio nem application layer.
+
+Para o passo a passo entre componentes, use os diagramas em **`docs/diagramas-sequencia.md`**.
 
 ## Pré-requisitos
 

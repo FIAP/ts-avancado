@@ -48,6 +48,10 @@ Arquivo: `src/container/container.ts` — método estático `getInvestimentoServ
 
 `FakeRepository<T>` implementa o mesmo `Repository<T>`, mas não persiste (útil para demonstrar total `0` após `adicionar`). O `Container.getInvestimentoServiceComRepositorioFake()` mostra a troca **só na composição**.
 
+## Diagramas de sequência
+
+Fluxos do container, do serviço e dos repositórios (memória vs fake) estão em **[`docs/diagramas-sequencia.md`](docs/diagramas-sequencia.md)** (Mermaid).
+
 ## Como rodar
 
 ```bash

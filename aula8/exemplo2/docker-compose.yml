@@ -1,0 +1,12 @@
+services:
+  mongo:
+    image: mongo:7
+    container_name: ts-avancado-aula8-mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - ts_avancado_mongo_data:/data/db
+    restart: unless-stopped
+
+volumes:
+  ts_avancado_mongo_data:

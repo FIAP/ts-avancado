@@ -2,6 +2,7 @@ import {
   comporComPersistenciaEmMemoria,
   comporComRepositorioVazio,
 } from "../composition/composicao.js";
+
 import { Acao } from "../domain/acao.js";
 import { FundoImobiliario } from "../domain/fundo-imobiliario.js";
 
@@ -17,6 +18,7 @@ console.log("Retorno total:", app.calcularRetornoTotal.executar());
 
 console.log("");
 console.log("=== Mesmos casos de uso, repositório que não persiste ===");
+
 const demo = comporComRepositorioVazio();
 demo.adicionarInvestimento.executar(new Acao("x", "Ignorado", 1, 1));
 console.log("Retorno total:", demo.calcularRetornoTotal.executar());

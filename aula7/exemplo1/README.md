@@ -28,6 +28,10 @@ A demonstração destaca ainda:
 
 Ao final da atividade, o aluno será capaz de estruturar um sistema em TypeScript utilizando os princípios da Arquitetura Limpa, compreendendo como organizar **entidades**, **casos de uso**, **adaptadores** e **infraestrutura**, e como essa abordagem contribui para software de alta qualidade, manutenção facilitada e baixa dependência tecnológica.
 
+## Documentação visual (diagramas)
+
+Fluxogramas das **camadas**, **execução do CLI** e **diagramas de sequência** dos casos de uso estão em **[`../docs/fluxograma-e-sequencia.md`](../docs/fluxograma-e-sequencia.md)** (na pasta `aula7/docs`).
+
 ## Estrutura de pastas
 
 ```

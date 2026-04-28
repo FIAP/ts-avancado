@@ -26,6 +26,10 @@ Ao longo da prática, integram-se conceitos das aulas anteriores:
 
 Ao final da atividade, o aluno será capaz de estruturar aplicações em TypeScript seguindo a Arquitetura em Cebola, compreendendo como separar corretamente **domínio**, **aplicação** e **infraestrutura**, e como construir sistemas preparados para evolução contínua, testes automatizados e integração com diferentes tecnologias.
 
+## Documentação visual
+
+Fluxogramas da **arquitetura em cebola**, **fluxo de execução** do CLI e **diagramas de sequência** dos casos de uso estão em **[`docs/fluxograma-e-sequencia.md`](docs/fluxograma-e-sequencia.md)** (Mermaid).
+
 ## Estrutura de pastas (visão em cebola)
 
 ```

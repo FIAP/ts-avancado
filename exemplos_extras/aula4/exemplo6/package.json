@@ -1,0 +1,22 @@
+{
+  "name": "exemplos-extras-aula4-exemplo6",
+  "version": "1.0.0",
+  "description": "Extras Aula 4 — exemplo6: LSP alinhado — conta salário não finge ser debitável",
+  "type": "module",
+  "imports": {
+    "#app/*": "./dist/*"
+  },
+  "scripts": {
+    "start": "tsx src/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

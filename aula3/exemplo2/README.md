@@ -25,6 +25,10 @@ src/
   service/
 ```
 
+## Diagramas de sequência
+
+Fluxos do `DiContainer`, perfis, transient vs singleton, serviços e repositório auditado estão em **[`docs/diagramas-sequencia.md`](docs/diagramas-sequencia.md)** (Mermaid).
+
 ## Como rodar
 
 ```bash

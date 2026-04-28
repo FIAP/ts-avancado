@@ -1,0 +1,17 @@
+{
+  "name": "exemplo-aula7-clean-architecture-investimentos",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/presentation/app.ts",
+    "build": "tsc",
+    "start:built": "node dist/presentation/app.js"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.0-beta"
+  }
+}

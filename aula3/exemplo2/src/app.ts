@@ -12,7 +12,7 @@ import type { InvestimentoService } from "./service/investimento.service.js";
 import type { RelatorioPortfolioService } from "./service/relatorio-portfolio.service.js";
 
 function executarCenario(perfil: PerfilExecucao, titulo: string): void {
-  console.log("");
+  console.log("--");
   console.log(`=== ${titulo} ===`);
 
   const container = new DiContainer();
@@ -20,6 +20,7 @@ function executarCenario(perfil: PerfilExecucao, titulo: string): void {
 
   const a = container.resolve<ContadorRequisicao>(Tokens.contadorRequisicao);
   const b = container.resolve<ContadorRequisicao>(Tokens.contadorRequisicao);
+  
   console.log(
     "Transient: duas resoluções do ContadorRequisicao → ids distintos?",
     a.id !== b.id,
